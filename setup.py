@@ -25,7 +25,7 @@ setuptools.setup(
         "Topic :: Communications :: Email :: Filters"
     ],
     python_requires='>=3.8',
-    install_requires=['lark~=1.3.0',
+    install_requires=['lark>=1.2.0',
                       'oletools>=0.56'],
     extras_require={'msg_parse': ['extract_msg~=0.27'],
                     'dev': ['lxml~=6.0',
